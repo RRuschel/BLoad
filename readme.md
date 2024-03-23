@@ -41,11 +41,11 @@ AG_BLoad implements the method described in the white paper. It uses a dictionar
 
 ## Usage
 
-This method can be applied to several datasets which contain different length input, be it videos, audios, etc.
+This method can be applied to several datasets which contains different length inputs, be it videos, audios, etc.
 
 ## Running the Test Loader
 
-Execute the script with necessary arguments.
+Execute the script with the necessary arguments.
 
 ```
 python test_loader.py --AG_path "path/to/Action Genome/dataset" --max_size_defined 800
@@ -69,3 +69,18 @@ This will load the dataset, create a DataLoader, and iterate through the dataset
 ## Contributing
 
 Contributions to improve the toolkit are welcome. Please follow standard GitHub practices for submitting pull requests.
+
+## Citation
+
+If you use this strategy on your project, please cite our work:
+```
+@misc{ruschel2023bload,
+      title={BLoad: Enhancing Neural Network Training with Efficient Sequential Data Handling}, 
+      author={Raphael Ruschel and A. S. M. Iftekhar and B. S. Manjunath and Suya You},
+      year={2023},
+      eprint={2310.10879},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
+
