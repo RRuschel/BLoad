@@ -52,15 +52,17 @@ python test_loader.py --AG_path "path/to/Action Genome/dataset" --max_size_defin
 ```
 
 For the Action Genome dataset, it is expected to be in the following structure:
-
+```
 root/
 ├── frames/
 │   ├── video1/
 │   ├── video2/
 │   ├── video3/
-├── annotations/
-│   ├── AG_HOIA_train_sgdet.pkl
-│   ...
+└── annotations/
+    ├── AG_HOIA_train_sgdet.pkl
+    ...
+```
+
 
 This will load the dataset, create a DataLoader, and iterate through the dataset in batches, printing progress with tqdm.
 
